@@ -20,7 +20,6 @@ app.get('/', (req, res) => res.send('hello'));
 app.use("/user", userRoute);
 
 app.use(Authenticate);
-app.use("/note", notesRoute);
 app.use("/feedback", feedbackRoute);
 
 
