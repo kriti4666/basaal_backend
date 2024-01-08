@@ -6,7 +6,6 @@ const PORT = process.env.PORT;
 
 const app = express();
 const {userRoute} = require("./src/routes/user.routes")
-const {notesRoute} = require("./src/routes/notes.routes");
 const {feedbackRoute} = require("./src/routes/feedback.route");
 const { Authenticate } = require("./src/middleware/authMiddleware");
 
